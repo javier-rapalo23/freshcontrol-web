@@ -1,6 +1,6 @@
 import { Filter, Search, Loader2, AlertCircle } from "lucide-react";
 import { Button } from "../../components/ui/Button";
-import { useProducts, type Product } from "../../hooks/useProducts";
+import { useProducts} from "../../hooks/useProducts";
 import { useMemo } from "react";
 
 // Datos de respaldo para DEMOSTRACIÓN VISUAL cuando no hay backend

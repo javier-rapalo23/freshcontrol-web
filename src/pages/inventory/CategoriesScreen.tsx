@@ -5,7 +5,7 @@ import { Button } from '../../components/ui/Button';
 import type { Category } from '../../hooks/useProducts';
 
 export default function CategoriesScreen() {
-  const { categories, loading, error, createCategory, updateCategory, deleteCategory } = useCategories();
+  const { categories, loading,  createCategory, updateCategory, deleteCategory } = useCategories();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingCategory, setEditingCategory] = useState<Category | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
