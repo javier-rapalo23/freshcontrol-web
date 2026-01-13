@@ -9,7 +9,7 @@ export interface APIResponse<T> {
 }
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api', // Ajustado al basePath del Swagger
+  baseURL: import.meta.env.VITE_API_URL, 
   headers: {
     'Content-Type': 'application/json',
   },
